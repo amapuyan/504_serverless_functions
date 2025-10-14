@@ -1,4 +1,4 @@
-import azure_function as func
+import azure.functions as func
 import json
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.Function)
