@@ -25,3 +25,4 @@ Endpoint URL: https://fastingglucose-hedfa5f5axh9eyhk.eastus2-01.azurewebsites.n
 
 ## Custom URL / Successful Deployment
 (images/azure url.png)
+
