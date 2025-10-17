@@ -10,7 +10,7 @@ def hello_http(request):
     data = request.get_json(silent=True) or {}
     args = request.args or {}
 
-    glucose = data.get("fasting glucose", args.get("fasting_glucose"))
+    glucose = data.get("fasting_glucose", args.get("fasting_glucose"))
 
     if glucose is None:
         return(
@@ -38,9 +38,8 @@ def hello_http(request):
     payload = {
         "fasting_glucose": glucose_val,
         "status": status,
-        "rule": "normal if fasting_glucose < 100 mg/dL (ADA/CDC)",
-        "category": category,
     }
+    
 
     return json.dumps(payload), 200, {"Content-Type": "application/json"}
     
