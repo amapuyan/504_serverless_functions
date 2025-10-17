@@ -10,19 +10,19 @@ Region: Europe-west1
 Endpoint URL: https://glucosetest-593221241239.europe-west1.run.app
 
 ## Custom URL / Successful Deployment
-![url](images/gcp url.png)
+![url](images/gcp_url.png)
 
 ## Example Requests
 Normal:
-![norm](images/gcp norm.png)
+![norm](images/gcp_norm.png)
 
 Abnormal:
-![abn](images/gcp abno.png)
+![abn](images/gcp_abno.png)
 
 ## Azure
 Region: East-US 2
 Endpoint URL: https://fastingglucose-hedfa5f5axh9eyhk.eastus2-01.azurewebsites.net/api/http_trigger1?code=MEtYpMkNkwhBaOd0AA_Gz7GC7BRYOeSh5BaNvKjRtOxvAzFu2KgFaw==
 
 ## Custom URL / Successful Deployment
-![url](images/azure url.png)
+![url](images/azure_url.png)
 
