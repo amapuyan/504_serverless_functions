@@ -4,7 +4,7 @@ Passcode: uF^4SXFF
 
 ## Explanation
 - I referenced the clinical fasting glucose ranges provided by the American Diabetes Association (diabetes.org) to define the threshold logic used in both my GCP and Azure serverless functions. This ensured consistency in determining normal versus abnormal glucose levels across both platforms.
-Source: (https://diabetes.org/about-diabetes/diagnosis?utm_source=chatgpt.com)
+Source: (https://diabetes.org/about-diabetes/diagnosis)
 
 ## Google Cloud Platform
 Region: Europe-west1
