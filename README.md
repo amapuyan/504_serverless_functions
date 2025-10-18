@@ -1,8 +1,9 @@
 # 504_serverless_functions
-[Recording]
+[recording](https://stonybrook.zoom.us/rec/share/Xq9-1WEpFHQHAi5aQIFfIlnBroxORfnFXnKG7TQCz0CaPXI--DlFTktuOas-PRV3.-dBT740tzay6ZuYo?startTime=1760745120000)
+Passcode: uF^4SXFF
 
 ## Explanation
-- 
+- I referenced the clinical fasting glucose ranges provided by the American Diabetes Association (diabetes.org) to define the threshold logic used in both my GCP and Azure serverless functions. This ensured consistency in determining normal versus abnormal glucose levels across both platforms.
 Source: (https://diabetes.org/about-diabetes/diagnosis?utm_source=chatgpt.com)
 
 ## Google Cloud Platform
