@@ -28,3 +28,12 @@ Endpoint URL: https://fastingglucose-hedfa5f5axh9eyhk.eastus2-01.azurewebsites.n
 ## Custom URL / Successful Deployment
 ![url](images/azure_url.png)
 
+## Example Requests
+Normal:
+![norm](images/azure_norm.png)
+
+Abnormal:
+![abn](images/azure_abn.png)
+
+## Comparison
+I found working with Google Cloud Platform (GCP) to be a smoother experience overall. The deployment process felt more straightforward, and testing the HTTP function was quick and intuitive. In contrast, Azure required extra setup where I had to disable secret protection to successfully push my code to GitHub, which made the workflow more complex. However, I did appreciate Azure’s built-in live testing feature within the portal, which made verifying function behavior convenient once everything was configured.
